@@ -45,6 +45,66 @@
          ]
         },
         {
+          "name": "Energia MSP432 EMT RED boards",
+          "architecture": "msp432r",
+          "version": "4.9.1",
+          "category": "Energia",
+          "url": "http://energia.nu/downloads/download_core.php?file=msp432r-4.9.1.tar.bz2",
+          "archiveFileName": "msp432r-4.9.1.tar.bz2",
+          "checksum": "SHA-256:617aa2c65addb9e3a0831b015ce2619abafd27d86b74ad75b0449063ca10421e",
+          "size": "21093293",
+          "boards": [
+            {"name": "MSP_EXP432P401R"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager":"energia",
+              "name":"arm-none-eabi-gcc",
+              "version":"4.8.4-20140725"
+            },
+            {
+              "packager":"energia",
+              "name":"dslite",
+              "version":"6.2.1.1624"
+            },
+            {
+              "packager":"energia",
+              "name":"ino2cpp",
+              "version":"1.0.2"
+            }
+          ]
+        },
+        {
+          "name": "Energia MSP432 EMT RED boards",
+          "architecture": "msp432r",
+          "version": "4.9.0",
+          "category": "Energia",
+          "url": "http://energia.nu/downloads/download_core.php?file=msp432r-4.9.0.tar.bz2",
+          "archiveFileName": "msp432r-4.9.0.tar.bz2",
+          "checksum": "SHA-256:f765300336d56d09af2f48a94445050e5313f4d47a038220d2ad0451d5eb655f",
+          "size": "21092774",
+          "boards": [
+            {"name": "MSP_EXP432P401R"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager":"energia",
+              "name":"arm-none-eabi-gcc",
+              "version":"4.8.4-20140725"
+            },
+            {
+              "packager":"energia",
+              "name":"dslite",
+              "version":"6.2.1.1624"
+            },
+            {
+              "packager":"energia",
+              "name":"ino2cpp",
+              "version":"1.0.2"
+            }
+          ]
+        },
+        {
           "name": "Energia MSP432 boards",
           "architecture": "msp432",
           "version": "3.8.0",
@@ -161,7 +221,38 @@
               "name":"dslite",
               "version":"6.2.1.1594"
             }
-
+          ]
+        },
+        {
+          "name": "Energia CC13xx boards",
+          "architecture": "cc13xx",
+          "version": "4.9.0",
+          "category": "Energia",
+          "url": "http://energia.nu/downloads/download_core.php?file=cc13xx-4.9.0.tar.bz2",
+          "archiveFileName": "cc13xx-4.9.0.tar.bz2",
+          "checksum": "SHA-256:4cf43b44a52783bb55994feed5f305b0d26f6a0cee1746cfd14168023ab9c07b",
+          "size": "24260076",
+          "boards": [
+            {"name": "LAUNCHXL_CC1310"},
+            {"name": "LAUNCHXL_CC1350"},
+            {"name": "CC1350STK"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager":"energia",
+              "name":"arm-none-eabi-gcc",
+              "version":"4.8.4-20140725"
+            },
+            {
+              "packager":"energia",
+              "name":"dslite",
+              "version":"7.1.0.1917"
+            },
+            {
+              "packager":"energia",
+              "name":"ino2cpp",
+              "version":"1.0.2"
+            }
           ]
         },
         {
@@ -383,6 +474,36 @@
               "packager":"energia",
               "name":"cc3200prog",
               "version":"1.1.4"
+            }
+          ]
+        },
+        {
+          "name": "Energia CC26xx boards",
+          "architecture": "cc26xx",
+          "version": "4.9.0",
+          "category": "Energia",
+          "url": "http://energia.nu/downloads/download_core.php?file=cc26xx-4.9.0.tar.bz2",
+          "archiveFileName": "cc26xx-4.9.0.tar.bz2",
+          "checksum": "SHA-256:b1411a4d22a478e910647dc1d680c1b1e70c8691bc5a5f9bdf0b983963cb1b7f",
+          "size": "25120764",
+          "boards": [
+            {"name": "CC2650STK"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager":"energia",
+              "name":"arm-none-eabi-gcc",
+              "version":"4.8.4-20140725"
+            },
+            {
+              "packager":"energia",
+              "name":"dslite",
+              "version":"7.1.0.1917"
+            },
+            {
+              "packager":"energia",
+              "name":"ino2cpp",
+              "version":"1.0.2"
             }
           ]
         }
