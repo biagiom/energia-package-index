@@ -482,10 +482,10 @@
           "architecture": "cc26xx",
           "version": "4.9.0",
           "category": "Energia",
-          "url": "http://energia.nu/downloads/download_core.php?file=cc26xx-4.9.0.tar.bz2",
+          "url": "https://github.com/biagiom/cc26xx-core/releases/download/4.9.0/cc26xx-4.9.0.tar.bz2",
           "archiveFileName": "cc26xx-4.9.0.tar.bz2",
-          "checksum": "SHA-256:b1411a4d22a478e910647dc1d680c1b1e70c8691bc5a5f9bdf0b983963cb1b7f",
-          "size": "25120764",
+          "checksum": "SHA-256:fe8246183befb4d5813fcbcea1450d4ab26add9dcb89558ee4223396b5ffe619",
+          "size": "25120862",
           "boards": [
             {"name": "CC2650STK"}
           ],
